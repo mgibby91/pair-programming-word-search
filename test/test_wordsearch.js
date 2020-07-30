@@ -50,4 +50,7 @@ describe("#wordSearch()", function() {
 
     assert.isTrue(result);
   });
+  it('should return "empty array given" if empty array is given', function() {
+    assert.equal(wordSearch([]), 'empty array given');
+  });
 });
